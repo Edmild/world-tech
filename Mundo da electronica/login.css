@@ -1,0 +1,43 @@
+body{
+    background: url("images/nicolas-thomas-3GZi6OpSDcY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:fixed ;
+}
+.login{
+    width: 30%;
+    margin: 50px auto;
+}
+form{
+    display:flex;
+    flex-direction: column;
+    gap:10px
+}
+form input[type="text"]{
+    border:none;
+    background-color:#3fa67b;
+    padding:15px ;
+    font-size: 1.298em;
+}
+.login form input[type=submit]{
+    background-color: #7445ff;
+    padding:15px;
+    font-size: 1.298em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+
+}
+.login form input[type='submit']:hover{
+    background-color: #5330ba;
+}
+.login form input::placeholder {
+    color: #fff
+  }
+.voltar{
+    font-size: 2em;
+    font-weight: bold;
+    color:#fff
+}

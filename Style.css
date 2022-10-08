@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap')
+*{ 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+nav{
+background-color: #18929D; 
+padding: 10px 60px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+nav .logo a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul{
+display: flex;
+align-items: center;
+list-style: none;
+padding: 10px;
+}
+nav li a{
+text-decoration:none;
+color: #FFF;
+font-size: 18px;
+font-weight: 500;
+padding: 8px 15px;
+border-radius: 5px;
+transition: 0.3s;
+}
+nav li a:hover{
+    background-color: wheat;
+    color: black;
+}
+.bonner{
+    height: 100;
+    background: linear-gradient( black  (0,0,0,0.281), rgba (0,0,0,0.308) ), url(´background.jpg´);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display:  flex;
+ali
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Site de vendas de materias eletrônicos  </title>
+</head>
+<body>
+    <nav>
+
+<div class="logo">
+    <a href="index.html">Mundo da eletrônica</a>
+<div>
+    <ul>
+        <li><a href=""> Home </a></li>
+        <li><a href=""> sobre </a></li>
+        <li><a href=""> preços </a></li>
+        <li><a href=""> serviços </a></li>
+        <li><a href=""> contactos </a></li></ul>
+    
+
+</nav>
+
+<section class="banner"
+div class="texto">
+<h1 class="titulo"criar um site incrivel somente</h1>
+<h2 class="sub titulo"usando HTML e Css puro</h2>
+<div class="botoes"
+
+
+
+<button>  </button>
+<button> inscrever  </button>
+<button> saiba mais </button>
+    
+
+
+
+  
+
+
+    
+</body>
+</html>

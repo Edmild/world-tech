@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.header {    
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.header .top a,
+.header .top .fa {
+    color: #fff;
+}
+
+.header .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo a {    
+    font-size: 2vmax;    
+}
+
+.header .form {
+    width: 45%;
+}
+
+.header .form div {
+    background-color: #fff;
+    border-radius: .35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 .8rem;
+}
+
+.header .form div input {
+    display: block;
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 100%;
+}
+
+.header .form div .fa-search {
+    color: #000;
+}
+
+.header .actions {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .actions a {
+    margin-left: .4rem;
+    font-size: 1vmax;
+}
+.header .actions .fa {
+    margin-left: .8rem;
+}
+
+.header .actions div {
+    display: flex;
+    align-items: center;    
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+
+.header nav .bottom {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.header nav .bottom a {
+    color: #000;
+}
+
+.banner {
+    background: url("../images/background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner .mask {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.text h1 {
+    color: #ddd;
+    font-size: 2rem;
+    position: relative;
+    z-index: 2;
+    font-family:  cursive;
+    text-align: center;
+}
+
+.especial {
+    padding-bottom: 2rem;
+    background-color: rgb(1, 23, 71);
+}
+
+.especial h2 {
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.components {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+.product {
+    width: 30%;
+    min-width: 10rem;
+    margin-bottom: 1rem;
+    padding: 3rem;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: .35rem;    
+}
+
+.product figure {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.product figure img {
+    transition: 1s;
+    height: 12rem;
+}
+
+.product figure img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.product figure figcaption {
+    font-weight: bold;
+    margin-top: .5rem;
+}
+
+.product p {
+    margin-top: 1rem;
+}
+
+.product .price {
+    display: block;
+    padding-top: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    
+
+
+}
+.ver-mais{ 
+    width: 200px;
+    margin: 0 auto;
+    padding:30px 0 ;
+
+}
+.btn-ver-mais{ 
+    color:#fff;
+    background-color: green;
+    padding: 15px;
+    text-align: center;
+   
+    
+}
+.footer {
+    padding: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.575);
+}
+
+@media screen and (min-width: 940px) {
+    .product {
+        width: 22rem;
+    }
+}

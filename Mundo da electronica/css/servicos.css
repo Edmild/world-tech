@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@media (max-width:720px) {
+    .product {
+        width: 100% !important;    
+    }
+
+    .especial {
+        display: flex;
+        flex-direction: column !important;
+        padding: 10px;
+        height: 100vh !important;
+    }
+
+    .especial .texto-container{
+        width: 100% !important;
+    }
+
+    .especial .sobre1{
+        border-right: none !important;
+        padding-bottom: 30px !important;
+        border-bottom: 1px solid white;
+    }
+
+    .especial .texto{
+        letter-spacing: 0px !important;
+        font-size: 1.1rem;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Arial';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.header {    
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.header .top a,
+.header .top .fa {
+    color: #fff;
+}
+
+.header .logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo a {    
+    font-size: 2vmax;    
+}
+
+.header .form {
+    width: 45%;
+}
+
+.header .form div {
+    background-color: #fff;
+    border-radius: .35rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 .8rem;
+}
+
+.header .form div input {
+    display: block;
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 100%;
+}
+
+.header .form div .fa-search {
+    color: #000;
+}
+
+.header .actions {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header .actions a {
+    margin-left: .4rem;
+    font-size: 1vmax;
+}
+.header .actions .fa {
+    margin-left: .8rem;
+}
+
+.header .actions div {
+    display: flex;
+    align-items: center;    
+    height: 100%;
+    border-left: 1px solid #fff;
+}
+
+.header nav .bottom {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.575);
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;    
+}
+
+.header nav .bottom a {
+    color: #000;
+}
+
+.banner {
+    background: url("../images/jorge-ramirez-cDK_VY_A9x8-unsplash.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.serviços-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-gap: 20px;
+
+
+}
+.serviços-grid div{    
+    color:white;
+    background: #00015a61;
+    padding: 130px;
+    margin: 20px;
+    transition: all 1s;
+}
+.serviços-grid div:hover{
+	transform: scale(1.1);
+}
+.banner .mask {
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.text h1 {
+    color: #ddd;
+    font-size: 2.5rem;
+    position: relative;
+    z-index: 2;
+    font-family:  cursive;
+    text-align: center;
+}
+
+.especial {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2rem;
+    
+}
+
+.especial .sobre1{
+    padding: 10px;
+    border-right: 1px solid white;
+}
+
+.especial .sobre2{
+    padding: 10px;
+}
+
+.especial h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.components {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+}
+
+.especial .texto-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.especial .texto{
+    color: white;
+    padding: 5px;
+    letter-spacing: 2px !important;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+
+.footer {
+    padding: 2rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.575);
+}
+
+@media screen and (min-width: 940px) {
+    .product {
+        width: 22rem;
+    }
+}
